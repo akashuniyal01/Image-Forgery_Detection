@@ -13,6 +13,16 @@ With the increasing accessibility of image editing tools, forged images are ever
 ---
 
 ## 📂 Dataset
+  ## Data Source
+
+The dataset was collected from Kaggle using the Kaggle API. It contains information related to job postings and candidate/CV profiles, including skills and other relevant attributes used for skill-matching analysis.
+
+## Data Collection
+
+The data was downloaded programmatically using the Kaggle API rather than manually downloading individual files.
+
+import kagglehub
+path = kagglehub.dataset_download("divg07/casia-20-image-tampering-detection-dataset")
 
 - **CASIA 2.0 Dataset**
   - Contains two types of images:
@@ -98,10 +108,6 @@ Dense (1) → Sigmoid
 | ✅ Custom CNN | **91.18%**      | **97.75%**   | **84.88%** | 24.2M     |
 | ResNet50     | 85.39%          | 88.48%       | 82.44%     | 23.6M     |
 
-
----
-
----
 
 ---
 
