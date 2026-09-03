@@ -22,6 +22,7 @@ The dataset was collected from Kaggle using the Kaggle API. It contains informat
 The data was downloaded programmatically using the Kaggle API rather than manually downloading individual files.
 
 import kagglehub
+
 path = kagglehub.dataset_download("divg07/casia-20-image-tampering-detection-dataset")
 
 - **CASIA 2.0 Dataset**
@@ -29,7 +30,7 @@ path = kagglehub.dataset_download("divg07/casia-20-image-tampering-detection-dat
     - `Au/` folder → Authentic images
     - `Tp/` folder → Tampered images
   - Includes splicing and copy-move forgeries
-
+ 
 ---
 
 ## 🖼️ Preprocessing: Error Level Analysis (ELA)
